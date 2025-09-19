@@ -58,7 +58,7 @@ const ProjectsSection = () => {
       ],
       technologies: ['Python', 'Flask', 'MySQL'],
       githubUrl: 'https://github.com/CesarM105',
-      demoUrl: null,
+      demoUrl: 'https://n660p4px-5174.brs.devtunnels.ms/',
       academic: true
     },
     {
@@ -199,7 +199,7 @@ const ProjectsSection = () => {
                     variant="outline" 
                     size="sm" 
                     className="flex-1 border-green-500/30 text-green-400 hover:bg-green-500/10 text-xs"
-                    disabled={!project.demoUrl}
+                    onClick={() =>  window.open(project.demoUrl, '_blank')}
                   >
                     <ExternalLink className="w-3 h-3 mr-1" />
                     Demo

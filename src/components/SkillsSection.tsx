@@ -35,12 +35,12 @@ const SkillsSection = () => {
       icon: '📊', 
       iconColor: 'text-green-400'
     },
-    { 
-      name: 'SAP & Automatización', 
-      percentage: 80, 
-      icon: '⚙️', 
-      iconColor: 'text-blue-400'
-    },
+    // { 
+    //   name: 'SAP & Automatización', 
+    //   percentage: 80, 
+    //   icon: '⚙️', 
+    //   iconColor: 'text-blue-400'
+    // },
     { 
       name: 'Liderazgo y Trabajo en Equipo', 
       percentage: 88, 
